@@ -6,6 +6,11 @@ import EducationCard from "./Home/EducationCard";
 import { MdWork } from "react-icons/md";
 import WorkCardL from "./Home/WorkCardL";
 import WorkCardR from "./Home/WorkCardR";
+import { SiHyperskill } from "react-icons/si";
+import SkillCard from "./Home/SkillCard";
+import knowledge from "../assets/knowledge.png";
+import learning from "../assets/learning.png";
+import wishlist from "../assets/wishlist.png";
 
 const Home = () => {
   return (
@@ -60,10 +65,52 @@ const Home = () => {
             <FaRulerVertical />
             Education
           </h2>
-          <div className="flex flex-col lg:flex-row gap-6 my-6">
+          <div className="flex flex-col lg:flex-row gap-6 my-6 justify-around">
             <EducationCard />
             <EducationCard />
             <EducationCard />
+          </div>
+        </div>
+        <div className="w-11/12 mx-auto my-6">
+          <h2 className="font-bold text-4xl text-accent flex items-center gap-2">
+            <SiHyperskill />
+            Skills
+          </h2>
+          <div className="flex flex-col lg:flex-row gap-6 my-6 items-center justify-around lg:items-start">
+            <SkillCard
+              skillData={{
+                img: knowledge,
+                category: "My Skills",
+                skills: [
+                  "https://cdn.iconscout.com/icon/free/png-256/free-python-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-5-pack-logos-icons-2945099.png?f=webp",
+                  "https://w7.pngwing.com/pngs/224/77/png-transparent-website-web-internet-css-style-css3-technology-social-media-logos-i-flat-colorful-icon.png",
+                  "https://cdn-icons-png.freepik.com/256/1051/1051277.png",
+                  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png",
+                ],
+              }}
+            />
+            <SkillCard
+              skillData={{
+                img: learning,
+                category: "Still Learning",
+                skills: [
+                  "https://static-00.iconduck.com/assets.00/react-icon-2048x2048-o8k3ymqa.png",
+                  "https://miro.medium.com/v2/resize:fit:512/1*doAg1_fMQKWFoub-6gwUiQ.png",
+                  "https://mathiasfrohlich.gallerycdn.vsassets.io/extensions/mathiasfrohlich/kotlin/1.7.1/1581441165235/Microsoft.VisualStudio.Services.Icons.Default",
+                ],
+              }}
+            />
+            <SkillCard
+              skillData={{
+                img: wishlist,
+                category: "Plan to Learn",
+                skills: [
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUTc3wwVFk4RrsQHsAafyJYQOkKwrb7WSIiQ&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZSOIj7rDvRcVKV8OcU_CAlJesGK_cxk9FSw&s",
+                  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/2109px-Kubernetes_logo_without_workmark.svg.png",
+                ],
+              }}
+            />
           </div>
         </div>
       </main>
