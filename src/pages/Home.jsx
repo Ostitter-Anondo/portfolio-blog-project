@@ -3,6 +3,9 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { FaRulerVertical } from "react-icons/fa";
 import EducationCard from "./Home/EducationCard";
+import { MdWork } from "react-icons/md";
+import WorkCardL from "./Home/WorkCardL";
+import WorkCardR from "./Home/WorkCardR";
 
 const Home = () => {
   return (
@@ -18,9 +21,18 @@ const Home = () => {
                 Fname Lname
               </h1>
               <div>
-                <h3 className="font-semibold text-xl text-secondary flex items-center gap-2"><CgEditBlackPoint />pointA</h3>
-                <h3 className="font-semibold text-xl text-secondary flex items-center gap-2"><CgEditBlackPoint />pointB</h3>
-                <h3 className="font-semibold text-xl text-secondary flex items-center gap-2"><CgEditBlackPoint />pointC</h3>
+                <h3 className="font-semibold text-xl text-secondary flex items-center gap-2">
+                  <CgEditBlackPoint />
+                  pointA
+                </h3>
+                <h3 className="font-semibold text-xl text-secondary flex items-center gap-2">
+                  <CgEditBlackPoint />
+                  pointB
+                </h3>
+                <h3 className="font-semibold text-xl text-secondary flex items-center gap-2">
+                  <CgEditBlackPoint />
+                  pointC
+                </h3>
               </div>
               <button className="btn btn-accent">download cv</button>
             </div>
@@ -34,7 +46,20 @@ const Home = () => {
           </div>
         </div>
         <div className="w-11/12 mx-auto my-6">
-          <h2 className="font-bold text-4xl text-accent flex items-center gap-2"><FaRulerVertical />Education</h2>
+          <h2 className="font-bold text-4xl text-accent flex items-center gap-2">
+            <MdWork />
+            Work Experience
+          </h2>
+          <div className="flex flex-col gap-6 my-6">
+            <WorkCardL />
+            <WorkCardR />
+          </div>
+        </div>
+        <div className="w-11/12 mx-auto my-6">
+          <h2 className="font-bold text-4xl text-accent flex items-center gap-2">
+            <FaRulerVertical />
+            Education
+          </h2>
           <div className="flex flex-col lg:flex-row gap-6 my-6">
             <EducationCard />
             <EducationCard />
