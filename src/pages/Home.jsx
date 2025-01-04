@@ -11,6 +11,8 @@ import SkillCard from "./Home/SkillCard";
 import knowledge from "../assets/knowledge.png";
 import learning from "../assets/learning.png";
 import wishlist from "../assets/wishlist.png";
+import ProjectCardL from "./Home/ProjectCardL";
+import ProjectCardR from "./Home/ProjectCardR";
 
 const Home = () => {
   return (
@@ -111,6 +113,16 @@ const Home = () => {
                 ],
               }}
             />
+          </div>
+        </div>
+        <div className="w-11/12 mx-auto my-6">
+          <h2 className="font-bold text-4xl text-accent flex items-center gap-2">
+            <MdWork />
+            Projects
+          </h2>
+          <div className="flex flex-col gap-6 my-6">
+            <ProjectCardL />
+            <ProjectCardR />
           </div>
         </div>
       </main>
