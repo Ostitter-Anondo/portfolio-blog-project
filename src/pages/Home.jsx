@@ -1,6 +1,8 @@
 import { CgEditBlackPoint } from "react-icons/cg";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import { FaRulerVertical } from "react-icons/fa";
+import EducationCard from "./Home/EducationCard";
 
 const Home = () => {
   return (
@@ -29,6 +31,14 @@ const Home = () => {
                 alt=""
               />
             </div>
+          </div>
+        </div>
+        <div className="w-11/12 mx-auto my-6">
+          <h2 className="font-bold text-4xl text-accent flex items-center gap-2"><FaRulerVertical />Education</h2>
+          <div className="flex flex-col lg:flex-row gap-6 my-6">
+            <EducationCard />
+            <EducationCard />
+            <EducationCard />
           </div>
         </div>
       </main>
