@@ -9,7 +9,13 @@ const Navbar = () => {
         <NavLink to={"/"}>Home</NavLink>
       </li>
       <li>
-        <NavLink to={"/blogs"}>Blogs</NavLink>
+        <a
+          href="https://drive.google.com/uc?export=download&id=10YvIU_y6cK-Fhv__P8T2j45kjySo7RcI"
+          target="_blank"
+          className="btn btn-accent btn-sm"
+        >
+          download cv
+        </a>
       </li>
     </>
   );
@@ -30,11 +36,13 @@ const Navbar = () => {
         </div>
         <Link to={"/"} className="btn btn-ghost text-xl">
           <img src={portfolio} className="size-7" alt="" />
-          Portfolio
+          <h1 className="text-primary">
+            Ja<span className="text-secondary">w</span>ad
+          </h1>
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">{links}</ul>
+        <ul className="menu menu-horizontal px-1 items-center gap-2">{links}</ul>
       </div>
     </div>
   );

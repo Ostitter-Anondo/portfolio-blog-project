@@ -1,0 +1,91 @@
+{
+  "skillStuff": {
+    "knowledge": {
+      "category": "My Skills",
+      "skills": [
+        "https://cdn.iconscout.com/icon/free/png-256/free-python-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-5-pack-logos-icons-2945099.png?f=webp",
+        "https://w7.pngwing.com/pngs/224/77/png-transparent-website-web-internet-css-style-css3-technology-social-media-logos-i-flat-colorful-icon.png",
+        "https://cdn-icons-png.freepik.com/256/1051/1051277.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png"
+      ]
+    },
+    "learning": {
+      "category": "Still Learning",
+      "skills": [
+        "https://static-00.iconduck.com/assets.00/react-icon-2048x2048-o8k3ymqa.png",
+        "https://miro.medium.com/v2/resize:fit:512/1*doAg1_fMQKWFoub-6gwUiQ.png",
+        "https://mathiasfrohlich.gallerycdn.vsassets.io/extensions/mathiasfrohlich/kotlin/1.7.1/1581441165235/Microsoft.VisualStudio.Services.Icons.Default"
+      ]
+    },
+    "wishlist": {
+      "category": "Plan to Learn",
+      "skills": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUTc3wwVFk4RrsQHsAafyJYQOkKwrb7WSIiQ&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZSOIj7rDvRcVKV8OcU_CAlJesGK_cxk9FSw&s",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/2109px-Kubernetes_logo_without_workmark.svg.png"
+      ]
+    }
+  },
+  "educationStuff": {
+    "bachelors": {
+      "img": "https://www.bracu.ac.bd/sites/default/files/resources/media/bracu_logo.png",
+      "institute": "Brac University",
+      "year": "2024",
+      "degree": "Bachelor of Science in Computer Science and Engineering",
+      "coursework": "**Coursework:** Computer Architecture, Image Processing, Computational Theory, SDLC, Computer Networks, Database Systems"
+    },
+    "hsc": {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM6Dxm3db7fZOU80PnnyzhafReP7EXGAW1OQ&s",
+      "institute": "Dhaka Imperial College",
+      "year": "2019",
+      "degree": "Higher Secondary School Certificate",
+      "coursework": "**Coursework:** AP Physics, AP Chemistry, AP Mathematics, AP Biology"
+    }
+  },
+  "projecStuff": {
+    "portfolio": {
+      "id": "portfolio",
+      "title": "Portfolio Blog Project",
+      "icon": "https://raw.githubusercontent.com/Ostitter-Anondo/portfolio-blog-project/refs/heads/main/public/portfolio.png",
+      "repo": "https://github.com/Ostitter-Anondo/portfolio-blog-project",
+      "summary": "A simple portfolio page made using React, with possibity of future inclusions such as blogpost functionality.",
+      "img": "https://i.ibb.co.com/f44KQQt/Portfolio.png",
+      "desc": "### Portfolio Website Overview\n\nThis portfolio website is designed to provide professionals, creatives, and students with a sleek and functional platform to showcase their skills, experience, and projects. Built with a focus on versatility and future scalability, the site offers essential sections to create a comprehensive and visually appealing portfolio.\n\n\n#### Project Demo Link\n\n\n[**https://jawadibnmamoon-portfolio.netlify.app/**](https://jawadibnmamoon-portfolio.netlify.app/)\n\n\n#### Key Features\n\n- **Dynamic Banner**: A customizable header section that allows users to introduce themselves with a personal touch, including their name, role, or a brief tagline.\n- **Work Experience**: Highlight your professional journey by listing previous roles, responsibilities, and accomplishments. This section is designed to emphasize growth and expertise in your field.\n- **Education**: Showcase academic achievements, certifications, or relevant courses to build credibility and demonstrate your commitment to learning.\n- **Skills Categorization**: The skills section is intelligently organized into three categories:\n  - **Proficient**: Showcase your core strengths and areas of expertise.\n  - **Learning**: Highlight skills you are currently developing, showcasing a commitment to growth.\n  - **Plan to Learn**: Offer insight into your aspirations and willingness to adapt to future challenges.\n\n- **Projects**: Display a curated selection of your work, complete with descriptions, images, or links to live demos or code repositories.\n- **Feedback & Social Links**: A dedicated section for gathering visitor feedback and directing them to your social media profiles, fostering connections and networking opportunities.\n\n\n#### Core Technologies\n\n- Built on React\n\n- Styled using Tailwind and daisyUI\n\n- Routing done using ReactRouter\n\n- Text styling handled using react-markdown\n\n\n#### Scalable Design\n\nThe website is future-proofed for upgrades, including a blog feature for sharing insights, updates, or thought leadership. The clean, intuitive layout ensures a seamless user experience while offering opportunities for customization to reflect your personal brand.\n\n\nThis platform is perfect for anyone seeking a professional yet approachable way to showcase their journey, expertise, and aspirations to potential employers, collaborators, or audiences."
+    },
+    "solaris": {
+      "id": "solaris",
+      "title": "Solar System React Project",
+      "icon": "https://raw.githubusercontent.com/Ostitter-Anondo/solar-system-react/refs/heads/main/public/solar-system.png",
+      "repo": "https://github.com/Ostitter-Anondo/solar-system-react",
+      "summary": "A simple react based interactive Solar System orbit viewer, with live orbit period manipulation functionality.",
+      "img": "https://i.ibb.co.com/Z8Cf528/Solaris.png",
+      "desc": "### Interactive Solar System Orbit Viewer\n\nThis website offers a fascinating and educational experience, allowing users to observe a scaled representation of the orbital periods of celestial bodies within our solar system. By visualizing the movement of planets in a dynamic and interactive way, it provides a deeper understanding of orbital mechanics and the vastness of space.\n\n\n#### Project Demo Link\n\n\n[**https://solar-system-ostitter-anondo.vercel.app**](https://solar-system-ostitter-anondo.vercel.app)\n\n\n#### Key Features\n\n- **Real-Time Scaled Orbits**: The site simulates the movement of planets around the Sun, illustrating their respective orbital periods. Each planet&apos;s orbit is depicted in proportion to the actual distances and timescales found in the solar system.\n\n- **Adjustable Period Scale Slider**: Users can control the speed of the simulation with a responsive period scale slider. This feature enables exploration of orbital dynamics at different time scales, from an accelerated view of fast inner orbits to a more contemplative pace for the outer planets.\n\n- **Educational Insight**: Gain a clearer perspective on the differences between planetary orbits. For instance, compare the rapid orbit of Mercury to the slow progression of Neptune across its vast orbital path.\n\n- **Interactive Design**: The clean, intuitive layout ensures a user-friendly experience, making it accessible to both enthusiasts and students of all ages.\n\n\n#### Core Technologies\n\n- Built on React\n\n- Styled using Tailwind and daisyUI\n\n- Routing done using ReactRouter\n\n\n#### Purpose and Application\n\nThis platform serves as an engaging tool for education and curiosity-driven exploration. Teachers can use it to supplement lessons on astronomy and orbital mechanics, while enthusiasts can delve into the dynamics of our solar system at their own pace.\n\n\n#### Future  Enhancements\n\nThe website is designed with scalability in mind. Planned features include additional celestial bodies such as moons or dwarf planets, detailed orbital parameters, and informational overlays to further enhance the learning experience.\n\nThis interactive solar system orbit viewer bridges the gap between complex astrophysics and intuitive exploration, making the wonders of our celestial neighborhood more accessible and enjoyable than ever."
+    },
+    "blogsite": {
+      "id": "blogsite",
+      "title": "Full Crud Blog Website",
+      "icon": "https://raw.githubusercontent.com/Ostitter-Anondo/full-crud-blog-project/refs/heads/main/public/blog.png",
+      "repo": "https://github.com/Ostitter-Anondo/full-crud-blog-project",
+      "summary": "A simple Blog Website built to demonstrate CRUD learning progress. Supports blog posting, reading, commenting and wishlisting.",
+      "img": "https://i.ibb.co.com/bzxWvmS/Blogsite.png",
+      "desc": "### Full-Feature Blog Hosting Platform\n\n\nThis blog website provides an engaging and interactive platform for users to create, share, and manage blog content. Designed with user experience and scalability in mind, the platform incorporates a robust set of features and cutting-edge technologies to ensure a seamless blogging experience for both content creators and readers.\n\n\n#### Project Demo Link\n\n\n[**https://b10a11-ostitter-anondo.web.app/**](https://b10a11-ostitter-anondo.web.app/)\n\n\n#### Key Features\n\n\n- **User Authentication**: Powered by Firebase Authentication, users can securely register, log in, and manage their accounts.\n\n- **Blog Management**: Registered users can create, edit, or delete their own blogs with ease, ensuring full control over their content.\n\n- **Interactive Engagement**: Readers can comment on blogs, fostering meaningful discussions and feedback.\n\n- **Wishlist Functionality**: Users can add blogs to their wishlist, enabling them to keep track of favorite content and revisit it at any time.\n\n- **Real-Time Notifications**: Notifications, powered by `react-hot-toast`, keep users informed about actions like successful submissions or updates.\n\n- **Rich Content Support**: Blogs can be written using Markdown, rendered dynamically with `react-markdown` for a polished and professional look.\n\n\n#### Core Technologies\n\n\n- **Frontend**:\n\n  - **React**: Component-based architecture for a responsive and interactive UI.\n\n  - **Tailwind CSS & DaisyUI**: Modern styling for a sleek and accessible design.\n\n  - **React Router**: Seamless navigation across pages.\n\n  - **React Markdown**: Markdown support for formatting blog content.\n\n  - **React-Hot-Toast**: Elegant, non-intrusive notifications.\n\n\n- **Backend**:\n\n  - **Express.js**: Fast and scalable server-side framework.\n\n  - **MongoDB**: NoSQL database for efficient storage and retrieval of user data and blog content.\n\n\n- **Authentication & Hosting**:\n\n  - **Firebase**: Secure user authentication system and reliable integration.\n\n\nThis blog hosting platform empowers users to express themselves, connect with others, and manage their content effectively, offering a modern, feature-rich blogging solution. Future updates aim to introduce advanced analytics, richer customization, and collaborative blogging capabilities."
+    }
+  },
+  "workStuff": {
+    "bucc": {
+      "org": "BRAC University Computer Club",
+      "img": "https://avatars.githubusercontent.com/u/56579108?s=280&v=4",
+      "pos": "Director of Press Release and Publications",
+      "time": "Aug 2022 to Nov 2023",
+      "resp": "Manage and co-ordinate writing teams to cover events, fill gaps where team members failed to appear in events, provide general support\n\nMaintain club magazine and newsletter, including editorial woork, type setting, aggregation, error correction\n\nEditorial work on press releases for events organized by the club, ensuring on time delivery of press release for publishing on the university website"
+    },
+    "buaps": {
+      "org": "Brac University Art & Photography Society",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRih0nve0FE1FLtX41973ED15QBeP4qbL4wQ&s",
+      "pos": "Secretary of Marketing and Press Release",
+      "time": "Jun 2022 to Jun 2023",
+      "resp": "Co-ordinate writer and designer teams for marketing materials, including selecting team members, organizing and delegating individual responsibilities\n\nEditorial work on text based marketing material, marketing material design using design softwares"
+    }
+  },
+  "aboutMe" : "Hi! I’m a **Computer Science and Engineering graduate** from **Brac University** with a passion for technology and creativity. During university, I was actively involved in **extracurricular activities**, serving as the **Director of Press Release and Publications** for the **Brac University Computer Club**, where I contributed to content creation and edited the club magazine.\n\nCurrently, I’m pursuing my goal of becoming a **full-stack web developer**, focusing on:\n\n- **Frontend**: React-based development\n\n- **Backend**: Express.js and MongoDB\n\nI’m also planning to expand my skills by learning **Go** and exploring a **relational database management system (RDBMS)** soon.\n\nMy aspiration is to grow into a **skilled industry professional**, collaborating with talented engineers to create innovative solutions and contribute to building a better internet. Let’s connect and create something impactful!"
+}

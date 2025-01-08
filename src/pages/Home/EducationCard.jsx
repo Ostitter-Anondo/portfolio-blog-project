@@ -1,14 +1,15 @@
 import PropTypes from 'prop-types';
-import education from '../../assets/education.png';
+import Markdown from 'react-markdown';
 
 const EducationCard = ({eduData}) => {
   console.log(eduData)
   return (
-    <div className='card bg-base-200 rounded w-fit p-12 flex flex-col gap-3'>
-      <img src={education} className='size-12' alt="education" />
-      <h3 className='font-bold text-3xl text-secondary'>XYZ Institute</h3>
-      <p className='font-light'>passing year</p>
-      <p>courseworkdetails Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo nostrum tempora, quasi voluptas quis repudiandae cum deleniti molestiae nemo fuga!</p>
+    <div className='card w-full bg-base-200 rounded p-12 flex flex-col grow gap-3'>
+      <img src={eduData.img} className='size-12 bg-white p-2 rounded-full' alt="education" />
+      <h3 className='font-bold text-3xl text-secondary'>{eduData.institute}</h3>
+      <p className='font-extralight text-sm'>{eduData.year}</p>
+      <p className='font-light text-lg text-primary'>{eduData.degree}</p>
+      <Markdown>{eduData.coursework}</Markdown>
     </div>
   );
 };
