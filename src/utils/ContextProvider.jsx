@@ -84,40 +84,40 @@ const ContextProvider = ({ children }) => {
     toastSuc,
   };
 
-  // useEffect(() => {
-  //   const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
-  //     if (currentUser) {
-  //       const user = { uid: currentUser.uid };
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+      if (currentUser) {
+        const user = { uid: currentUser.uid };
 
-  //       axios
-  //         .post(`${import.meta.env.VITE_dbApi}/jwt`, user, {
-  //           withCredentials: true,
-  //         })
-  //         .then((res) => {
-  //           setUserData(res.data.userData);
-  //           setWishlist(res.data.wishlist);
-  //           setLoading(false);
-  //         })
-  //         .catch((err) => console.error(err));
-  //     } else {
-  //       axios
-  //         .post(
-  //           `${import.meta.env.VITE_dbApi}/logout`,
-  //           {},
-  //           { withCredentials: true }
-  //         )
-  //         .then((res) => console.log("logout", res.data))
-  //         .then(() => {
-  //           setLoading(false);
-  //           setUserData(null);
-  //         })
-  //         .catch((err) => console.error(err));
-  //     }
-  //   });
-  //   return () => {
-  //     unsubscribe();
-  //   };
-  // }, []);
+        axios
+          .post(`${import.meta.env.VITE_dbApi}/jwt`, user, {
+            withCredentials: true,
+          })
+          .then((res) => {
+            setUserData(res.data.userData);
+            setWishlist(res.data.wishlist);
+            setLoading(false);
+          })
+          .catch((err) => console.error(err));
+      } else {
+        axios
+          .post(
+            `${import.meta.env.VITE_dbApi}/logout`,
+            {},
+            { withCredentials: true }
+          )
+          .then((res) => console.log("logout", res.data))
+          .then(() => {
+            setLoading(false);
+            setUserData(null);
+          })
+          .catch((err) => console.error(err));
+      }
+    });
+    return () => {
+      unsubscribe();
+    };
+  }, []);
 
   return <Context.Provider value={dataValues}>{children}</Context.Provider>;
 };
